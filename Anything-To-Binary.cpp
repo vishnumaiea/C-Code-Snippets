@@ -15,7 +15,7 @@
 using namespace std;
 
 void reverseString (char* sourceString) {
-	char temp;
+    char temp;
     int arraySize = strlen(sourceString);
     for(int i=0; i<arraySize/2; i++) {
         temp = sourceString[i];
