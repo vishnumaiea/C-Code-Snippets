@@ -1,2 +1,2 @@
 # C-Code-Snippets
-Some useful C++ code snippets for copy pasting.
+Some useful C/C++ code snippets for copy pasting.
