@@ -27,7 +27,7 @@ int main() {
     return 0;
 }
 
-//258 chars version below
+//247 chars version below
 
 #include <iostream>
 
