@@ -2,7 +2,9 @@
 //                                                                           //
 //  A small program to convert uppercase letter text to key combinations     //
 //  Author : Vishnu M Aiea                                                   //
+//  GitHub : https://github.com/vishnumaiea/                                 //
 //  Date created : IST 5:35 PM 10-11-2017, Friday                            //
+//                                                                           //
 //===========================================================================//
 
 #include <iostream>
