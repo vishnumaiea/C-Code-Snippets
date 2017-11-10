@@ -1,6 +1,6 @@
 //===========================================================================//
 //                                                                           //
-//  A small program to convert text to key combinations                      //
+//  A small program to convert text to key combinations in 262 characters    //
 //  Author : Vishnu M Aiea                                                   //
 //  GitHub : https://github.com/vishnumaiea/                                 //
 //  Date created : IST 5:35 PM 10-11-2017, Friday                            //
