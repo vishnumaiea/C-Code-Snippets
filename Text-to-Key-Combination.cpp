@@ -20,7 +20,7 @@ int main() {
     for(i=0; i < sizeof(a); i++) {
         j = a[i];
         j = m[j > 90 ? j-97 : j-65];
-        for(k=0; k < (j-((j/10)*10)); k++)
+        for(k=0; k < j%10; k++)
         cout<< j/10;
         cout<< " ";
     }
@@ -41,7 +41,7 @@ main() {
     for(i=0; i < sizeof(a); i++) {
         j = a[i];
         j = m[j > 90 ? j-97 : j-65];
-        for(k=0; k < (j-((j/10)*10)); k++)
+        for(k=0; k < j%10; k++)
         cout<< j/10;
         cout<< " ";
     }
