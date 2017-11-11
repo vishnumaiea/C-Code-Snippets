@@ -42,3 +42,25 @@ main() {
         cout<<" ";
     }
 }
+
+//207 chars
+
+#include <iostream>
+#define M std::cout<<
+
+int m [] = {0,3,6,9,12,15,19,22,26};
+
+main() {
+    char*a,i,j,k,l;
+    std::cin>> a;
+    for(i=0; i < sizeof(a); i++) {
+        for(k=1;k<9;k++)
+        if((j=a[i]&31) <= m[k])
+        for(l=0; l<j-m[k-1]; l++) M k+1;
+        M " ";
+    }
+}
+
+// #include <iostream>
+// #define M std::cout<<
+// int m[]={0,3,6,9,12,15,19,22,26};main(){char*a,i,j,k,l;std::cin>>a;for(i=0;i<sizeof(a);i++){for(k=1;k<9;k++)if((j=a[i]&31)<=m[k])for(l=0;l<j-m[k-1];l++) M k+1;M " ";}}
