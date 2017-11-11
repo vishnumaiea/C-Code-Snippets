@@ -25,3 +25,20 @@ main() {
         cout<< " ";
     }
 }
+
+//209 chars version
+
+#include <iostream>
+using namespace std;
+
+int m [] = {0,3,6,9,12,15,19,22,26};
+
+main() {
+    char i,j,k,l,*a;
+    cin>> a;
+    for(i=0; i < sizeof(a); i++) {
+        j = a[i] & 31;
+        for(k=1;k<9;k++)if(j <= m[k])for(l=0; l < (j-m[k-1]); l++) cout<< k+1;
+        cout<<" ";
+    }
+}
