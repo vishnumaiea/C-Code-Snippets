@@ -15,7 +15,7 @@ using namespace std;
 int m [] = {21,22,23,31,32,33,41,42,43,51,52,53,61,
            62,63,71,72,73,74,81,82,83,91,92,93,94};
 main() {
-    char i,j,k,*a;
+    char*a i,j,k;
     cin>> a;
     for(i=0; i < sizeof(a); i++) {
         j = a[i];
@@ -34,7 +34,7 @@ using namespace std;
 int m [] = {0,3,6,9,12,15,19,22,26};
 
 main() {
-    char i,j,k,l,*a;
+    char*a i,j,k,l;
     cin>> a;
     for(i=0; i < sizeof(a); i++) {
         j = a[i] & 31;
